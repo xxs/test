@@ -20,7 +20,7 @@ import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.context.ServletContextAware;
 
 /**
- * SHOP++ 安装初始化
+ * 安装初始化
  */
 
 @Component("Initializable")

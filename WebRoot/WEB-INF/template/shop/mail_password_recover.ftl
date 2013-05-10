@@ -2,9 +2,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title>密码找回 - Powered By SHOP++</title>
-<meta name="Author" content="SHOP++ Team" />
-<meta name="Copyright" content="SHOP++" />
+<title>密码找回 - Powered By DEFINEDWEEK</title>
+<meta name="Author" content="DEFINEDWEEK Team" />
+<meta name="Copyright" content="DEFINEDWEEK" />
 </head>
 <body>
 <p>亲爱的${member.username}: </p>

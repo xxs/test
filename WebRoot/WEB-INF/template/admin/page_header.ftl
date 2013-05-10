@@ -3,9 +3,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title>管理中心 - Powered By SHOP++</title>
-<meta name="Author" content="SHOP++ Team" />
-<meta name="Copyright" content="SHOP++" />
+<title>管理中心 - Powered By DEFINEDWEEK</title>
+<meta name="Author" content="DEFINEDWEEK Team" />
+<meta name="Copyright" content="DEFINEDWEEK" />
 <link rel="icon" href="favicon.ico" type="image/x-icon" />
 <link href="${base}/template/admin/css/base.css" rel="stylesheet" type="text/css" />
 <link href="${base}/template/admin/css/admin.css" rel="stylesheet" type="text/css" />
@@ -41,10 +41,6 @@ $().ready(function() {
 					<strong><@sec.authentication property="name" /></strong>&nbsp;您好!&nbsp;
 				</span>
 				<a href="page!index.action" target="mainFrame">后台首页</a>|
-            	<a href="http://bbs.shopxx.net" target="_blank">技术支持</a>|
-                <a href="http://www.shopxx.net" target="_blank">购买咨询</a>|
-                <a href="http://www.shopxx.net/about.html" target="_blank">关于我们</a>|
-                <a href="http://www.shopxx.net/contact.html" target="_blank">联系我们</a>
 			</div>
 			<div id="menu" class="menu">
 				<ul>

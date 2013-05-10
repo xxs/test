@@ -3,9 +3,6 @@
  *
  *  JSON数据格式示例：[{"title": "北京", "value": "beijing"},{"title": "湖南", "value": "hunan"},{"title": "湖北", "value": "hubei"}]
  *
- *	http://www.shopxx.net
- *
- *	Copyright © 2010 shopxx.net All Rights Reserved. 
  **/
 
 (function($){

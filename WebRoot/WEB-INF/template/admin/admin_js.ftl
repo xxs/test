@@ -1,12 +1,5 @@
-/***
- *	SHOP++ Admin JavaScript
- *
- *	http://www.shopxx.net
- *
- *	Copyright © 2010 shopxx.net All Rights Reserved.
- **/
 
-shopxx = {
+definedweek = {
 	base: "${base}",
 	currencySign: "${setting.currencySign}",
 	currencyUnit: "${setting.currencyUnit}",
@@ -20,8 +13,8 @@ if(typeof(KE) != "undefined") {
 		id: "editor",
 		height: "400px",
 		items: ['source', '|', 'fullscreen', 'undo', 'redo', 'print', 'cut', 'copy', 'paste','plainpaste', 'wordpaste', '|', 'justifyleft', 'justifycenter', 'justifyright','justifyfull', 'insertorderedlist', 'insertunorderedlist', 'indent', 'outdent', 'subscript','superscript', '|', 'selectall', '-','title', 'fontname', 'fontsize', '|', 'textcolor', 'bgcolor', 'bold','italic', 'underline', 'strikethrough', 'removeformat', '|', 'image','flash', 'media', 'advtable', 'hr', 'emoticons', 'link', 'unlink'],
-		imageUploadJson: shopxx.base + "/admin/file!ajaxUpload.action",
-		fileManagerJson: shopxx.base + "/admin/file!ajaxBrowser.action",
+		imageUploadJson: definedweek.base + "/admin/file!ajaxUpload.action",
+		fileManagerJson: definedweek.base + "/admin/file!ajaxBrowser.action",
 		allowFileManager: true,
 		autoSetDataMode: true
 	});
@@ -29,8 +22,8 @@ if(typeof(KE) != "undefined") {
 
 // 货币格式化
 function currencyFormat(price) {
-	price = setScale(price, shopxx.priceScale, shopxx.priceRoundType);
-	return shopxx.currencySign + price + shopxx.currencyUnit;
+	price = setScale(price, definedweek.priceScale, definedweek.priceRoundType);
+	return definedweek.currencySign + price + definedweek.currencyUnit;
 }
 
 $().ready( function() {

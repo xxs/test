@@ -2,9 +2,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title>管理中心首页 - Powered By SHOP++</title>
-<meta name="Author" content="SHOP++ Team" />
-<meta name="Copyright" content="SHOP++" />
+<title>管理中心首页 - Powered By DEFINEDWEEK</title>
+<meta name="Author" content="DEFINEDWEEK Team" />
+<meta name="Copyright" content="DEFINEDWEEK" />
 <link rel="icon" href="favicon.ico" type="image/x-icon" />
 <link href="${base}/template/admin/css/base.css" rel="stylesheet" type="text/css" />
 <link href="${base}/template/admin/css/admin.css" rel="stylesheet" type="text/css" />
@@ -14,7 +14,7 @@
 </head>
 <body class="index">
 	<div class="bar">
-		欢迎使用SHOP++网店管理系统！
+		欢迎使用DEFINEDWEEK网店管理系统！
 	</div>
 	<div class="body">
 		<div class="bodyLeft">
@@ -38,39 +38,6 @@
 					</td>
 					<td>
 						${setting.systemVersion} 商业版
-					</td>
-				</tr>
-				<tr>
-					<td>
-						官方网站: 
-					</td>
-					<td>
-						<a href="http://www.shopxx.net">http://www.shopxx.net</a>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						交流论坛: 
-					</td>
-					<td>
-						<a href="http://bbs.shopxx.net">http://bbs.shopxx.net</a>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						BUG反馈邮箱: 
-					</td>
-					<td>
-						<a href="mailto:bug@shopxx.net">bug@shopxx.net</a>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						商业授权: 
-					</td>
-					<td>
-						未取得商业授权之前,您不能将本软件应用于商业用途
-						<a class="red" href="http://www.shopxx.net/license.html" target="_blank">[授权查询]</a>
 					</td>
 				</tr>
 			</table>
@@ -212,7 +179,7 @@
 				</tr>
 			</table>
 		</div>
-		<p class="copyright">Copyright © 2005-2011 shopxx.net All Rights Reserved.</p>
+		<p class="copyright">Copyright © .</p>
 	</div>
 </body>
 </html>

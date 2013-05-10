@@ -22,10 +22,9 @@
 	ApplicationContext applicationContext = SpringUtil.getApplicationContext();
 	if (applicationContext == null) {
 %>
-	<p>系统出现异常，请检查是否已正确安装SHOP++</p>
-	<p>提示: SHOP++安装完成后请重新启动WEB服务器</p>
+	<p>系统出现异常，请检查是否已正确初始化程序</p>
 	<p>
-		<a href="<%=base%>/install/index.html">点击进行安装</a>
+		<a href="<%=base%>/install/index.html">点击进行初始化</a>
 	</p>
 <%
 	return;
@@ -75,9 +74,9 @@ if (StringUtils.equalsIgnoreCase(error, "captcha")) {
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title>管理中心 - Powered By SHOP++</title>
-<meta name="Author" content="SHOP++ Team" />
-<meta name="Copyright" content="SHOP++" />
+<title>管理中心 - Powered By DEFINEDWEEK</title>
+<meta name="Author" content="DEFINEDWEEK Team" />
+<meta name="Copyright" content="DEFINEDWEEK" />
 <link rel="icon" href="favicon.ico" type="image/x-icon" />
 <link href="<%=base%>/template/admin/css/base.css" rel="stylesheet" type="text/css" />
 <link href="<%=base%>/template/admin/css/admin.css" rel="stylesheet" type="text/css" />
@@ -164,7 +163,7 @@ $().ready( function() {
             <table class="loginTable">
             	<tr>
             		<td rowspan="3">
-            			<img src="<%=base%>/template/admin/images/login_logo.gif" alt="SHOP++管理中心" />
+            			<img src="<%=base%>/template/admin/images/login_logo.gif" alt="DEFINEDWEEK管理中心" />
             		</td>
                     <th>
                     	用户名:
@@ -216,15 +215,15 @@ $().ready( function() {
                 </tr>
             </table>
             <div class="powered">
-            	COPYRIGHT © 2005-2011 SHOPXX.NET ALL RIGHTS RESERVED.
+            	欢迎使用本系统！
             </div>
             <div class="link">
-            	<a href="<%=base%>/">前台首页</a> |
-				<a href="http://www.shopxx.net">官方网站</a> |
-				<a href="http://bbs.shopxx.net">交流论坛</a> |
-				<a href="http://www.shopxx.net/about.html">关于我们</a> |
-				<a href="http://www.shopxx.net/contact.html">联系我们</a> |
-				<a href="http://www.shopxx.net/license.html">授权查询</a>
+            	<a href="<%=base%>/">首页</a> |
+            	<a href="#">xxs</a> |
+            	<a href="#">xxs</a> |
+            	<a href="#">xxs</a> |
+            	<a href="#">xxs</a> |
+            	<a href="#">xxs</a> |
             </div>
         </form>
 	</div>

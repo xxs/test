@@ -1,11 +1,3 @@
-/***
- *	SHOP++ Base JavaScript
- *
- *	http://www.shopxx.net
- *
- *	Copyright © 2010 shopxx.net All Rights Reserved. 
- **/
-
 // 解决IE6不缓存背景图片问题
 if(!window.XMLHttpRequest) {
 	document.execCommand("BackgroundImageCache", false, true);
@@ -34,7 +26,7 @@ function htmlEscape(htmlString) {
 // 设置Cookie
 function setCookie(name, value) {
 	var expires = (arguments.length > 2) ? arguments[2] : null;
-	document.cookie = name + "=" + encodeURIComponent(value) + ((expires == null) ? "" : ("; expires=" + expires.toGMTString())) + ";path=" + shopxx.base;
+	document.cookie = name + "=" + encodeURIComponent(value) + ((expires == null) ? "" : ("; expires=" + expires.toGMTString())) + ";path=" + definedweek.base;
 }
 
 // 获取Cookie

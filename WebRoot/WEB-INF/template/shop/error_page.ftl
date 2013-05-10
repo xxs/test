@@ -2,9 +2,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title>提示信息<#if setting.isShowPoweredInfo> - Powered By SHOP++</#if></title>
-<meta name="Author" content="SHOP++ Team" />
-<meta name="Copyright" content="SHOP++" />
+<title>提示信息<#if setting.isShowPoweredInfo> - Powered By DEFINEDWEEK</#if></title>
+<meta name="Author" content="DEFINEDWEEK Team" />
+<meta name="Copyright" content="DEFINEDWEEK" />
 <link href="${base}/template/shop/css/base.css" rel="stylesheet" type="text/css" />
 <link href="${base}/template/shop/css/shop.css" rel="stylesheet" type="text/css" />
 </head>

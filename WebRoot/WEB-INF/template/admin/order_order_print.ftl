@@ -3,8 +3,8 @@
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <title>订单打印</title>
-<meta name="Author" content="SHOP++ Team" />
-<meta name="Copyright" content="SHOP++" />
+<meta name="Author" content="DEFINEDWEEK Team" />
+<meta name="Copyright" content="DEFINEDWEEK" />
 <link rel="icon" href="favicon.ico" type="image/x-icon" />
 <link href="${base}/template/admin/css/base.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="${base}/template/common/js/jquery.js"></script>
@@ -232,7 +232,7 @@ try {
 					&nbsp;
 				</td>
 				<td colspan="2">
-					Powered By shopxx.net
+					welcome
 				</td>
 			</tr>
 		</table>

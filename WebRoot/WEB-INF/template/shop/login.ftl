@@ -2,9 +2,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title>会员登录<#if setting.isShowPoweredInfo> - Powered By SHOP++</#if></title>
-<meta name="Author" content="SHOP++ Team" />
-<meta name="Copyright" content="SHOP++" />
+<title>会员登录<#if setting.isShowPoweredInfo> - Powered By DEFINEDWEEK</#if></title>
+<meta name="Author" content="DEFINEDWEEK Team" />
+<meta name="Copyright" content="DEFINEDWEEK" />
 <#if (article.metaKeywords)! != ""><meta name="keywords" content="${article.metaKeywords}" /></#if>
 <#if (article.metaDescription)! != ""><meta name="description" content="${article.metaDescription}" /></#if>
 <link rel="icon" href="favicon.ico" type="image/x-icon" />
@@ -36,7 +36,7 @@
 		
 		// 刷新验证码图片
 		$captchaImage.click( function() {
-			$captchaImage.attr("src", shopxx.base + "/captcha.jpeg?timestamp" + (new Date()).valueOf());
+			$captchaImage.attr("src", definedweek.base + "/captcha.jpeg?timestamp" + (new Date()).valueOf());
 		});
 	
 		// 表单验证

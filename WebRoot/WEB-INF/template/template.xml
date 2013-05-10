@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <definedweek>
-	<description>SHOP++模板配置文件</description>
+	<description>系统模板配置文件</description>
 	<page>
 		<header>
 			<description>顶部内容</description>

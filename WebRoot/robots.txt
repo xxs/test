@@ -1,5 +1,3 @@
-# robots.txt for SHOP++
-
 User-agent: *
 Disallow: /admin/
 Disallow: /install/

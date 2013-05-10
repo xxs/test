@@ -1,12 +1,4 @@
-/***
- *	SHOP++ Shop JavaScript
- *
- *	http://www.shopxx.net
- *
- *	Copyright © 2010 shopxx.net All Rights Reserved.
- **/
-
-shopxx = {
+definedweek = {
 	base: "${base}",
 	currencySign: "${setting.currencySign}",
 	currencyUnit: "${setting.currencyUnit}",
@@ -16,8 +8,8 @@ shopxx = {
 
 // 货币格式化
 function currencyFormat(price) {
-	price = setScale(price, shopxx.priceScale, shopxx.priceRoundType);
-	return shopxx.currencySign + price + shopxx.currencyUnit;
+	price = setScale(price, definedweek.priceScale, definedweek.priceRoundType);
+	return definedweek.currencySign + price + definedweek.currencyUnit;
 }
 
 $().ready( function() {
@@ -30,7 +22,7 @@ $().ready( function() {
 		if(getCookie("memberUsername") != null) {
 			var isMemberLogin = false;
 			$.ajax({
-				url: shopxx.base + "/shop/member!ajaxMemberVerify.action",
+				url: definedweek.base + "/shop/member!ajaxMemberVerify.action",
 				type: "POST",
 				dataType: "json",
 				async: false,
@@ -99,14 +91,14 @@ $().ready( function() {
 							<th>验证码: </th>
 							<td>
 								<input type="text" id="loginWindowCaptcha" name="j_captcha" class="formText loginWindowCaptcha" />
-								<img id="loginWindowCaptchaImage" class="loginWindowCaptchaImage" src="' + shopxx.base + '/captcha.jpeg?timestamp=' + (new Date()).valueOf() + '" alt="换一张" />
+								<img id="loginWindowCaptchaImage" class="loginWindowCaptchaImage" src="' + definedweek.base + '/captcha.jpeg?timestamp=' + (new Date()).valueOf() + '" alt="换一张" />
 							</td>
 						</tr>
 							<tr>
 								<th>&nbsp;</th>
 							<td>
 								<span class="warnIcon">&nbsp;</span>
-								<a href="' + shopxx.base + '/shop/member!passwordRecover.action">忘记了密码? 点击找回!</a>
+								<a href="' + definedweek.base + '/shop/member!passwordRecover.action">忘记了密码? 点击找回!</a>
 							</td>
 						</tr>
 					</table>
@@ -122,7 +114,7 @@ $().ready( function() {
 			var $loginWindowCaptchaImage = $("#loginWindowCaptchaImage");
 			
 			function loginWindowCaptchaImageRefresh() {
-				$loginWindowCaptchaImage.attr("src", shopxx.base + "/captcha.jpeg?timestamp=" + (new Date()).valueOf());
+				$loginWindowCaptchaImage.attr("src", definedweek.base + "/captcha.jpeg?timestamp=" + (new Date()).valueOf());
 			}
 			
 			$loginWindowCaptchaImage.click( function() {
@@ -147,7 +139,7 @@ $().ready( function() {
 				}
 				
 				$.ajax({
-					url: shopxx.base + "/shop/member!ajaxLogin.action",
+					url: definedweek.base + "/shop/member!ajaxLogin.action",
 					data: $loginWindowForm.serialize(),
 					type: "POST",
 					dataType: "json",
@@ -209,7 +201,7 @@ $().ready( function() {
 							<th>验证码: </th>
 							<td>
 								<input type="text" id="registerWindowCaptcha" name="j_captcha" class="formText registerWindowCaptcha" />
-								<img id="registerWindowCaptchaImage" class="registerWindowCaptchaImage" src="' + shopxx.base + '/captcha.jpeg?timestamp=' + (new Date()).valueOf() + '" alt="换一张" />
+								<img id="registerWindowCaptchaImage" class="registerWindowCaptchaImage" src="' + definedweek.base + '/captcha.jpeg?timestamp=' + (new Date()).valueOf() + '" alt="换一张" />
 							</td>
 						</tr>
 						<tr>
@@ -238,7 +230,7 @@ $().ready( function() {
 			var $registerWindowShowAgreementWindow = $("#registerWindowShowAgreementWindow");
 			
 			function registerWindowCaptchaImageRefresh() {
-				$registerWindowCaptchaImage.attr("src", shopxx.base + "/captcha.jpeg?timestamp=" + (new Date()).valueOf());
+				$registerWindowCaptchaImage.attr("src", definedweek.base + "/captcha.jpeg?timestamp=" + (new Date()).valueOf());
 			}
 			
 			$registerWindowCaptchaImage.click( function() {
@@ -307,7 +299,7 @@ $().ready( function() {
 				}
 				
 				$.ajax({
-					url: shopxx.base + "/shop/member!checkUsername.action",
+					url: definedweek.base + "/shop/member!checkUsername.action",
 					data: {"member.username": $registerWindowMemberUsername.val()},
 					type: "POST",
 					cache: false,
@@ -317,7 +309,7 @@ $().ready( function() {
 					success: function(data) {
 						if (data == "true") {
 							$.ajax({
-								url: shopxx.base + "/shop/member!ajaxRegister.action",
+								url: definedweek.base + "/shop/member!ajaxRegister.action",
 								data: $registerWindowForm.serialize(),
 								type: "POST",
 								dataType: "json",
@@ -359,7 +351,7 @@ $().ready( function() {
 				var $agreementWindowContent = $("#agreementWindowContent");
 				
 				$.ajax({
-					url: shopxx.base + "/html/register_agreement.html",
+					url: definedweek.base + "/html/register_agreement.html",
 					datatype: "html",
 					beforeSend: function(data) {
 						$agreementWindowContent.html('<span class="loadingIcon">&nbsp;</span> 加载中...');
@@ -442,7 +434,7 @@ $().ready( function() {
 			return false; 
 		}
 		$.ajax({
-			url: shopxx.base + "/shop/favorite!ajaxAdd.action",
+			url: definedweek.base + "/shop/favorite!ajaxAdd.action",
 			data: {"id": id},
 			type: "POST",
 			dataType: "json",
@@ -466,7 +458,7 @@ $().ready( function() {
 		}
 
 		$.ajax({
-			url: shopxx.base + "/shop/cart_item!ajaxAdd.action",
+			url: definedweek.base + "/shop/cart_item!ajaxAdd.action",
 			data: {"id": id, "quantity": quantity},
 			type: "POST",
 			dataType: "json",
@@ -595,13 +587,13 @@ $().ready( function() {
 		var $commentCaptcha = $("#commentCaptcha");
 		var $commentCaptchaImage = $("#commentCaptchaImage");
 		var forCommentId = null;
-		var ajaxUrl = shopxx.base + "/shop/comment!ajaxSave.action";
+		var ajaxUrl = definedweek.base + "/shop/comment!ajaxSave.action";
 		
 		$commentReply.click( function() {
 			var $this = $(this);
 			forCommentId = $this.attr("forCommentId");
 			$forCommentId.val(forCommentId);
-			ajaxUrl = shopxx.base + "/shop/comment!ajaxReply.action";
+			ajaxUrl = definedweek.base + "/shop/comment!ajaxReply.action";
 			$sendTitle.html("回复评论");
 			$sendComment.show();
 		});
@@ -609,13 +601,13 @@ $().ready( function() {
 		$sendComment.click( function() {
 			forCommentId = null;
 			$forCommentId.val("");
-			ajaxUrl = shopxx.base + "/shop/comment!ajaxSave.action";
+			ajaxUrl = definedweek.base + "/shop/comment!ajaxSave.action";
 			$sendTitle.html("发表评论");
 			$sendComment.hide();
 		});
 		
 		function commentCaptchaImageRefresh() {
-			$commentCaptchaImage.attr("src", shopxx.base + "/captcha.jpeg?timestamp=" + (new Date()).valueOf());
+			$commentCaptchaImage.attr("src", definedweek.base + "/captcha.jpeg?timestamp=" + (new Date()).valueOf());
 		}
 	
 		$commentCaptchaImage.click( function() {
@@ -797,7 +789,7 @@ $().ready( function() {
 								<#list instantMessagingList as instantMessaging>
 									<dd>
 										<#if instantMessaging.instantMessagingType == "qq">
-											<a href="http://wpa.qq.com/msgrd?v=3&uin=${instantMessaging.value}&site=SHOPXX_NET&menu=yes" target="_blank">
+											<a href="http://wpa.qq.com/msgrd?v=3&uin=${instantMessaging.value}&menu=yes" target="_blank">
 												<img src="http://wpa.qq.com/pa?p=2:${instantMessaging.value}:45" alt="QQ在线客服" align="absmiddle" /> ${instantMessaging.title}
 											</a>
 										<#elseif instantMessaging.instantMessagingType == "msn">

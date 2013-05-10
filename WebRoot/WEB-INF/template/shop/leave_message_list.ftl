@@ -2,9 +2,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title>在线留言<#if setting.isShowPoweredInfo> - Powered By SHOP++</#if></title>
-<meta name="Author" content="SHOP++ Team" />
-<meta name="Copyright" content="SHOP++" />
+<title>在线留言<#if setting.isShowPoweredInfo> - Powered By DEFINEDWEEK</#if></title>
+<meta name="Author" content="DEFINEDWEEK Team" />
+<meta name="Copyright" content="DEFINEDWEEK" />
 <link rel="icon" href="favicon.ico" type="image/x-icon" />
 <link href="${base}/template/shop/css/base.css" rel="stylesheet" type="text/css" />
 <link href="${base}/template/shop/css/shop.css" rel="stylesheet" type="text/css" />
@@ -193,7 +193,7 @@
 			
 			// 刷新在线留言验证码图片
 			function leaveMessageCaptchaImageRefresh() {
-				$leaveMessageCaptchaImage.attr("src", shopxx.base + "/captcha.jpeg?timestamp=" + (new Date()).valueOf());
+				$leaveMessageCaptchaImage.attr("src", definedweek.base + "/captcha.jpeg?timestamp=" + (new Date()).valueOf());
 			}
 			
 			// 刷新在线留言验证码图片

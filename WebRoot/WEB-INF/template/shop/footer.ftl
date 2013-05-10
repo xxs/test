@@ -27,9 +27,9 @@
 			<li><a href="#">联系我们</a>|</li>
 			<li><a href="#">版权说明</a></li>
 		</ul>
-		<p>Copyright &copy; 2011 SHOP++. All rights reserved. 长沙鼎诚软件有限公司</p>
+		<p>Copyright &copy; 2011 DEFINEDWEEK. All rights reserved. 长沙鼎诚软件有限公司</p>
 		<#if setting.isShowPoweredInfo>
-			<p>Powered by <a class="systemName" href="http://www.shopxx.net" target="_blank">SHOP<span>++</span> V2.0</a></p>
+			<p>Powered by  V2.0</a></p>
 		</#if>
 	</div>
 </div>

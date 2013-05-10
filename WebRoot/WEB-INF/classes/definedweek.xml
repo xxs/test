@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <definedweek>
-	<description>SHOP++配置文件</description>
+	<description>DEFINEDWEEK配置文件</description>
 	<setting>
-		<systemName>SHOP++网店管理系统</systemName>
+		<systemName>信诚家私</systemName>
 		<systemVersion>2.0.6</systemVersion>
-		<systemDescription>SHOP++是基于JAVA技术的开源网店系统，主要应用于电子商务领域内的网上购物、网上交易、交易信息发布等系统的构建。致力于为个人和企业提供安全、稳定、高效、强大的电子商务解决方案，并推进国内电子商务技术和开源技术的发展而不断努力。</systemDescription>
+		<systemDescription>信诚家私</systemDescription>
 		<contextPath></contextPath>
 		<imageUploadPath>/upload/image/{date(yyyyMM)}</imageUploadPath>
 		<imageBrowsePath>/upload/image</imageBrowsePath>
 		<adminLoginUrl>/admin/index.jsp</adminLoginUrl>
 		<adminLoginProcessingUrl>/admin/login/check</adminLoginProcessingUrl>
 		<isShowPoweredInfo>true</isShowPoweredInfo>
-		<shopName>SHOP++商城</shopName>
+		<shopName>信诚家私</shopName>
 		<shopUrl>http://localhost</shopUrl>
 		<shopLogoPath>/images/logo.jpg</shopLogoPath>
-		<hotSearch>苹果,松下,索尼,三星,诺基亚,海尔,惠普,东芝,LG,联想</hotSearch>
-		<metaKeywords>SHOP++体验商城</metaKeywords>
-		<metaDescription>SHOP++是基于JAVA技术的开源网店系统，主要应用于电子商务领域内的网上购物、网上交易、交易信息发布等系统的构建。致力于为个人和企业提供安全、稳定、高效、强大的电子商务解决方案，并推进国内电子商务技术和开源技术的发展而不断努力。</metaDescription>
-		<address>湖南长沙经济技术开发区</address>
-		<phone>400-8888888</phone>
+		<hotSearch>松木家具1,松木家具2</hotSearch>
+		<metaKeywords>信诚家私 商城</metaKeywords>
+		<metaDescription>信诚家私</metaDescription>
+		<address></address>
+		<phone></phone>
 		<zipCode>400000</zipCode>
-		<email>admin@definedweek.net</email>
-		<certtext>湘ICP备10000000号</certtext>
+		<email></email>
+		<certtext></certtext>
 		<currencyType>CNY</currencyType>
 		<currencySign>￥</currencySign>
 		<currencyUnit>元</currencyUnit>

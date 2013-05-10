@@ -2,9 +2,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title>${goodsCategory.name} 商品列表<#if setting.isShowPoweredInfo> - Powered By SHOP++</#if></title>
-<meta name="Author" content="SHOP++ Team" />
-<meta name="Copyright" content="SHOP++" />
+<title>${goodsCategory.name} 商品列表<#if setting.isShowPoweredInfo> - Powered By DEFINEDWEEK</#if></title>
+<meta name="Author" content="DEFINEDWEEK Team" />
+<meta name="Copyright" content="DEFINEDWEEK" />
 <#if (goodsCategory.metaKeywords)! != ""><meta name="keywords" content="${goodsCategory.metaKeywords}" /></#if>
 <#if (goodsCategory.metaDescription)! != ""><meta name="description" content="${goodsCategory.metaDescription}" /></#if>
 <link rel="icon" href="favicon.ico" type="image/x-icon" />
