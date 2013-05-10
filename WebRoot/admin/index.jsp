@@ -1,11 +1,11 @@
 <%@page language="java" contentType="text/html; charset=utf-8" pageEncoding="UTF-8"%>
 <%@page import="org.apache.commons.lang.StringUtils"%>
 <%@page import="org.springframework.security.BadCredentialsException"%>
-<%@page import="net.shopxx.util.SpringUtil"%>
-<%@page import="net.shopxx.service.AdminService"%>
-<%@page import="net.shopxx.entity.Admin"%>
-<%@page import="net.shopxx.util.SettingUtil"%>
-<%@page import="net.shopxx.bean.Setting"%>
+<%@page import="com.xxs.definedweek.util.SpringUtil"%>
+<%@page import="com.xxs.definedweek.service.AdminService"%>
+<%@page import="com.xxs.definedweek.entity.Admin"%>
+<%@page import="com.xxs.definedweek.util.SettingUtil"%>
+<%@page import="com.xxs.definedweek.bean.Setting"%>
 <%@page import="org.springframework.security.DisabledException"%>
 <%@page import="org.springframework.security.LockedException"%>
 <%@page import="org.springframework.security.AccountExpiredException"%>

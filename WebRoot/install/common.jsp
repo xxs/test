@@ -10,7 +10,7 @@
 	public static final String INSTALL_LOCK_CONFIG_PATH = "/install/install_lock.conf";
 	public static final String BUILD_HTML_CONFIG_PATH = "/build_html.conf";
 	public static final String DATABASE_PROPERTIES_PATH = "/database.properties";
-	public static final String SHOPXX_XML_PATH = "/shopxx.xml";
+	public static final String SHOPXX_XML_PATH = "/definedweek.xml";
 	public static final String BACKUP_WEB_XML_PATH = "/WEB-INF/backup_web.xml";
 	public static final String WEB_XML_PATH = "/WEB-INF/web.xml";
 	public static final String TABLE_PREFIX_SIGN = "{shopxx_table_prefix}";

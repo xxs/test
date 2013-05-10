@@ -5,7 +5,7 @@
        http://www.springframework.org/schema/beans/spring-beans-2.5.xsd"
        default-lazy-init="true">
 	
-	<bean id="indexBuilder" class="net.shopxx.common.CompassIndexBuilder" lazy-init="false">
+	<bean id="indexBuilder" class="com.xxs.definedweek.common.CompassIndexBuilder" lazy-init="false">
 		<property name="compassGps" ref="compassGps" />
 		<property name="delayTime" value="60" />
 	</bean>
@@ -15,13 +15,13 @@
 	<bean id="compass" class="org.compass.spring.LocalCompassBean">
 		<property name="resourceDirectoryLocations">
 			<list>
-				<value>classpath:net/shopxx</value>
+				<value>classpath:com/xxs/definedweek</value>
 			</list>
 		</property>
 		<property name="classMappings">
 			<list>
-				<value>net.shopxx.entity.Article</value>
-				<value>net.shopxx.entity.Goods</value>
+				<value>com.xxs.definedweek.entity.Article</value>
+				<value>com.xxs.definedweek.entity.Goods</value>
 			</list>
 		</property>
 		

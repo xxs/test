@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<shopxx>
+<definedweek>
 	<description>SHOP++模板配置文件</description>
 	<page>
 		<header>
@@ -246,4 +246,4 @@
 			<templatePath>WEB-INF/template/admin/order_shipping_print.ftl</templatePath>
 		</delivery>
 	</print>
-</shopxx>
+</definedweek>

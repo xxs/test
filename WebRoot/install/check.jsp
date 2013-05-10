@@ -5,7 +5,7 @@
 <%
 	String isAgreeAgreement = request.getParameter("isAgreeAgreement");
 	if (StringUtils.equalsIgnoreCase(isAgreeAgreement, "true")) {
-		boolean isShopxxXmlCanWrite = isCanWrite(realPath + "/WEB-INF/classes/shopxx.xml");
+		boolean isShopxxXmlCanWrite = isCanWrite(realPath + "/WEB-INF/classes/definedweek.xml");
 		boolean isDatabasePropertiesWrite = isCanWrite(realPath + "/WEB-INF/classes/database.properties");
 		boolean isTemplateCanWrite = isCanWrite(realPath + "/WEB-INF/template/");
 		boolean isUploadCanWrite = isCanWrite(realPath + "/upload/");
@@ -203,7 +203,7 @@ $().ready( function() {
 					</tr>
 					<tr>
 						<td>
-							/WEB-INF/classes/shopxx.xml
+							/WEB-INF/classes/definedweek.xml
 						</td>
 						<td>
 							可写

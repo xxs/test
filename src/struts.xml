@@ -7,7 +7,7 @@
 	<!--每次Http请求到达时,是否重新加载资源文件-->
 	<constant name="struts.i18n.reload" value="false" />
 	<constant name="struts.convention.classes.reload" value="false" />
-	<constant name="struts.convention.action.packages" value="net.shopxx.action" />
+	<constant name="struts.convention.action.packages" value="com.xxs.definedweek.action" />
 	<constant name="struts.serve.static.browserCache" value="true" />
 	<!--与spring集成时，指定由spring负责action对象的创建-->
 	<constant name="struts.objectFactory" value="spring" />
@@ -19,7 +19,7 @@
 	<constant name="struts.multipart.maxSize" value="-1" />
 	<constant name="struts.convention.result.path" value="/WEB-INF/template/" />
 	<constant name="struts.convention.action.name.separator" value="_" />
-	<constant name="struts.freemarker.manager.classname" value="net.shopxx.common.FreemarkerManager" />
+	<constant name="struts.freemarker.manager.classname" value="com.xxs.definedweek.common.FreemarkerManager" />
 	
 	<package name="basePackage" extends="struts-default">
 		<interceptors>
@@ -62,8 +62,8 @@
 
 	<package name="admin" extends="basePackage" namespace="/admin">
 		<interceptors>
-			<interceptor name="trimInterceptor" class="net.shopxx.interceptor.TrimInterceptor" />
-			<interceptor name="logInterceptor" class="net.shopxx.interceptor.LogInterceptor" />
+			<interceptor name="trimInterceptor" class="com.xxs.definedweek.interceptor.TrimInterceptor" />
+			<interceptor name="logInterceptor" class="com.xxs.definedweek.interceptor.LogInterceptor" />
 			<interceptor-stack name="adminStack">
 				<interceptor-ref name="fileUpload">
 					<param name="allowedTypes">image/jpeg,image/pjpeg,image/gif,image/bmp,image/x-ms-bmp,image/png,image/x-png</param>
@@ -86,9 +86,9 @@
 
 	<package name="shop" extends="basePackage" namespace="/shop">
 		<interceptors>
-			<interceptor name="securityInterceptor" class="net.shopxx.interceptor.SecurityInterceptor" />
-			<interceptor name="trimInterceptor" class="net.shopxx.interceptor.TrimInterceptor" />
-			<interceptor name="memberVerifyInterceptor" class="net.shopxx.interceptor.MemberVerifyInterceptor" />
+			<interceptor name="securityInterceptor" class="com.xxs.definedweek.interceptor.SecurityInterceptor" />
+			<interceptor name="trimInterceptor" class="com.xxs.definedweek.interceptor.TrimInterceptor" />
+			<interceptor name="memberVerifyInterceptor" class="com.xxs.definedweek.interceptor.MemberVerifyInterceptor" />
 			<interceptor-stack name="shopStack">
 				<interceptor-ref name="fileUpload">
 					<param name="allowedTypes">image/jpeg,image/pjpeg,image/gif,image/bmp,image/x-ms-bmp,image/png,image/x-png</param>
