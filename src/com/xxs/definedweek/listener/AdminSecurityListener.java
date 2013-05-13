@@ -19,9 +19,6 @@ import org.springframework.stereotype.Component;
 
 /**
  * 监听器 - 后台登录成功、登录失败处理
-
- * KEY: DEFINEDWEEKB7062D10AE49E791318B72A663072500
-
  */
 
 @Component("adminSecurityListener")
