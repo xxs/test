@@ -13,9 +13,6 @@ import org.hibernate.annotations.ForeignKey;
 
 /**
  * 实体类 - 到货通知
-
- * KEY: DEFINEDWEEK5CAA6FDAF2A5662FADB5F15AD00B2070
-
  */
 
 @Entity

@@ -6,9 +6,6 @@ import javax.persistence.Transient;
 
 /**
  * 实体类 - 快递单模板
-
- * KEY: DEFINEDWEEK59CDA5BD112307CE31AA07638136F25B
-
  */
 
 @Entity

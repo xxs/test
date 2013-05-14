@@ -6,9 +6,6 @@ import javax.persistence.Transient;
 
 /**
  * 实体类 - 日志
-
- * KEY: DEFINEDWEEKF75093F3168097AE8B8496F61E075DA3
-
  */
 
 @Entity

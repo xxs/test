@@ -11,9 +11,6 @@ import javax.persistence.Transient;
 
 /**
  * 实体类 - 物流公司
-
- * KEY: DEFINEDWEEK59CDA5BD112307CE31AA07638136F25A
-
  */
 
 @Entity

@@ -16,9 +16,6 @@ import org.hibernate.annotations.ForeignKey;
 
 /**
  * 实体类 - 在线留言
-
- * KEY: DEFINEDWEEK98FCE833E4347550503D1E5C947BB0B2
-
  */
 
 @Entity

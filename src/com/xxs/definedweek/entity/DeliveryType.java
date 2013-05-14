@@ -19,9 +19,6 @@ import org.hibernate.annotations.ForeignKey;
 
 /**
  * 实体类 - 配送方式 
-
- * KEY: DEFINEDWEEKD834B4DDADAC88F9991F5CD5611A0797
-
  */
 
 @Entity

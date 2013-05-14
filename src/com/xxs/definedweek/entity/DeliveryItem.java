@@ -10,9 +10,6 @@ import org.hibernate.annotations.ForeignKey;
 
 /**
  * Bean类 - 物流项
-
- * KEY: DEFINEDWEEKDE21DFA17B86CB2B9C558AB35759D2E1
-
  */
 
 @Entity

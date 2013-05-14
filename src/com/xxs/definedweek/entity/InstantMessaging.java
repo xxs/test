@@ -7,9 +7,6 @@ import javax.persistence.Transient;
 
 /**
  * 实体类 - 在线客服
-
- * KEY: DEFINEDWEEK5CAA6FDAF2A5662FADB5F15AD00B2070
-
  */
 
 @Entity

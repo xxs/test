@@ -16,9 +16,6 @@ import org.hibernate.annotations.ForeignKey;
 
 /**
  * 实体类 - 预存款
-
- * KEY: DEFINEDWEEK9CDAB54D4C875D425F65ACF3175FEDF0
-
  */
 
 @Entity

@@ -41,9 +41,6 @@ import org.hibernate.annotations.ForeignKey;
 
 /**
  * 实体类 - 商品
-
- * KEY: DEFINEDWEEKA422025AB3BAEE5940EB4488D12B6691
-
  */
 
 @Entity

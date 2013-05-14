@@ -8,9 +8,6 @@ import org.apache.commons.lang.StringUtils;
 
 /**
  * 实体类 - 友情链接
-
- * KEY: DEFINEDWEEK59EFA5A38C12EDA5195C25530FB56A9F
-
  */
 
 @Entity
