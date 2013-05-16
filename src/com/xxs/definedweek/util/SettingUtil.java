@@ -34,9 +34,6 @@ import com.opensymphony.oscache.general.GeneralCacheAdministrator;
 
 /**
  * 工具类 - 系统配置
-
- * KEY: DEFINEDWEEK6A15A4BF2AF0A65F46FF20145368F1F4
-
  */
 
 public class SettingUtil {

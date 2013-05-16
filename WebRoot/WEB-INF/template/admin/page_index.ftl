@@ -21,7 +21,7 @@
 			<table class="listTable">
 				<tr>
 					<th colspan="2">
-						软件信息
+						软件信息 <a href="english!list.action">english</a>
 					</th>
 				</tr>
 				<tr>

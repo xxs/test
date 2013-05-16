@@ -19,9 +19,6 @@ import com.opensymphony.oscache.general.GeneralCacheAdministrator;
 
 /**
  * 工具类 - 支付产品
-
- * KEY: DEFINEDWEEK6A15A4BF2AF0A65F46FF20145368F1F4
-
  */
 
 public class PaymentProductUtil {
