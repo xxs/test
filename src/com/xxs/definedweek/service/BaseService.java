@@ -11,9 +11,6 @@ import org.hibernate.criterion.Order;
 
 /**
  * Service接口 - Service接口基类
-
- * KEY: DEFINEDWEEKF02A2641DDF4DDD4BBBA1E8E3A3E2860
-
  */
 
 public interface BaseService<T, PK extends Serializable> {
