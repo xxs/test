@@ -4,9 +4,6 @@ import org.springframework.beans.factory.InitializingBean;
 
 /**
  * 通过quartz调度定时重建索引或自动随Spring ApplicationContext启动而重建索引
-
- * KEY: DEFINEDWEEK13D156FE217D4020D96236A46E1DB023
-
  */
 
 public class CompassIndexBuilder implements InitializingBean {
